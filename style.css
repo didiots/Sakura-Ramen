@@ -1,0 +1,661 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/raleway-v37-latin/raleway-v37-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/raleway-v37-latin/raleway-v37-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Economica';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/economica-v17-latin/economica-v17-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Economica';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./assets/fonts/economica-v17-latin/economica-v17-latin-700.woff2') format('woff2');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+.hero-image {
+    background-image: url("./assets/img/hero_bg.jpg");
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+
+.navigatorbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-items: center;
+    padding-top: 28px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.bluete {
+    width: 64;
+    height: 64px;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.menu-items {
+    padding-right: 30px;
+}
+
+.menu-items:hover {
+    color: rgb(161, 31, 31);
+    font-weight: 500;
+}
+
+.callbutton {
+    background-color: rgb(117, 22, 22);
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+
+.callbutton:hover {
+    background-color: rgb(161, 31, 31);
+}
+
+.phone {
+    height: 24px;
+    width: 24px;
+}
+
+.hero-text {
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 120px;
+}
+
+h1 {
+    font-size: 96px;
+    font-weight: 700;
+    margin: 0px;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    color: #9F0908;
+    font-size: 80px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+h3 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.hero-text2 {
+    font-size: 24px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+
+.hto-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hto-header {
+    padding-top: 120px;
+    padding-bottom: 64px;
+}
+
+.table-items {
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-items-3 {
+    padding-bottom: 120px;
+}
+
+.oi-container {
+    display: flex;
+    justify-content: center;
+}
+
+.order-icons {
+    width: 128px;
+    padding-bottom: 16px;
+    filter: drop-shadow(2px 2px 4px);
+}
+
+.pick-your {
+    text-align: center;
+    font-family: "Economica", sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.our-menu-image {
+    background-image: url("./assets/img/section_our_menu_bg.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 180 1vh;
+}
+
+.ourmenu-header {
+    padding-top: 120px;
+    padding-bottom: 64px;
+}
+
+.dish1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 56px;
+    align-items: center;
+    gap: 80px;
+}
+
+.R1-img {
+    width: 352px;
+    filter: drop-shadow(10px 10px 10px);
+}
+
+.heading-and-table {
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-heading {
+    font-family: "Economica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+    padding-bottom: 16px;
+}
+
+.dish-option-chicken {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #675E54;
+    padding-bottom: 8px;
+    padding-right: 200px;
+}
+
+.dish-options {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #675E54;
+    padding-bottom: 8px;
+}
+
+.dish-price {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    color: #675E54;
+    padding-bottom: 8px;
+}
+
+.dish2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    padding-bottom: 56px;
+    align-items: center;
+    gap: 80px;
+}
+
+.R2-img {
+    width: 352px;
+    filter: drop-shadow(10px 10px 10px);
+}
+
+.dish3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 120px;
+    align-items: center;
+    gap: 80px;
+}
+
+.R3-img {
+    width: 352px;
+    filter: drop-shadow(10px 10px 10px);
+}
+
+.findus-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.findus-header {
+    padding-top: 120px;
+    padding-bottom: 8px;
+}
+
+.adress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.map-adresse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-optical-sizing: auto;
+}
+
+.google-maps {
+    object-fit: cover;
+    height: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0A141E;
+    margin-top: 15px;
+    height: 144px;
+    padding-left: 160px;
+    padding-right: 160px;
+}
+
+.footer-sakura-ramen-container {
+    padding: 20px;
+}
+
+.footer-sakura-ramen {
+    height: 44px;
+    transition: filter 0.2s ease;
+}
+
+.footer-sakura-ramen:hover {
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+}
+
+.footer-bluete {
+    height: 44px;
+    display: none;
+}
+
+.footer-logos {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-logos:hover {
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.6));
+}
+
+.footer-logos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    padding: 20px;
+}
+
+@media screen and (max-width:980px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:979px) {
+    .menu a {
+        font-size: 20px;
+    }
+
+    .navigatorbar {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 64px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+    h3 {
+        font-size: 32px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+
+    .hero-text2 {
+        font-size: 20px;
+    }
+
+    .hto-header {
+        padding-top: 96px;
+        padding-bottom: 48px;
+    }
+
+    .order-icons {
+        width: 112px;
+        padding-bottom: 8px;
+    }
+
+    .table-items {
+        padding-bottom: 96px;
+    }
+
+    .table-items-3 {
+        padding-bottom: 96px;
+    }
+
+    .ourmenu-header {
+        padding-top: 96px;
+        padding-bottom: 48px;
+    }
+
+    .R1-img {
+        width: 40%;
+    }
+
+    .R2-img {
+        width: 40%;
+    }
+
+    .R3-img {
+        width: 40%;
+    }
+
+    .dish1 {
+        padding-bottom: 32px;
+        gap: 24px;
+        margin: 24px;
+    }
+
+    .dish2 {
+        padding-bottom: 32px;
+        gap: 24px;
+        margin: 24px;
+    }
+
+    .dish3 {
+        padding-bottom: 96px;
+        gap: 24px;
+        margin: 24px;
+    }
+
+    .dish-heading {
+        font-size: 32px;
+    }
+
+    .dish-option-chicken {
+        font-size: 24px;
+    }
+
+    .dish-options {
+        font-size: 24px;
+    }
+
+    .dish-price {
+        font-size: 24px;
+    }
+
+    .findus-header {
+        padding-top: 96px;
+    }
+
+    .adress-container {
+        margin-bottom: 48px;
+    }
+
+    .map-adresse {
+        font-size: 20px;
+    }
+
+    footer {
+        margin-top: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer-logos-container {
+        gap: 14px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .hero-image {
+        height: 53vh;
+    }
+
+    .navigatorbar {
+        justify-content: space-around;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .bluete {
+        width: 40px;
+        height: 40px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .phone {
+        width: 20px;
+        height: 20px;
+        padding-right: 10px;
+    }
+
+    .callbutton {
+        padding: 2px 10px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .hero-text {
+        padding-top: 200px;
+    }
+
+    .hero-text2 {
+        font-size: 16px;
+    }
+
+    .hto-header {
+        padding-top: 72px;
+    }
+
+    .hto-container {
+        flex-direction: column;
+    }
+
+    .table-items {
+        padding-bottom: 32px;
+    }
+
+    .table-items-3 {
+        padding-bottom: 72px;
+    }
+
+    .order-icons {
+        width: 112px;
+    }
+
+    .ourmenu-header {
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+
+    .dish1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dish2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dish3 {
+        flex-direction: column;
+        padding-bottom: 72px;
+        align-items: center;
+    }
+
+    .R1-img {
+        width: 244px;
+    }
+
+    .R2-img {
+        width: 244px;
+    }
+
+    .R3-img {
+        width: 244px;
+    }
+
+    .dish-heading {
+        font-size: 32px;
+    }
+
+    .dish-option-chicken {
+        font-size: 20px;
+        padding-right: 130px;
+    }
+
+    .dish-options {
+        font-size: 20px;
+    }
+
+    .dish-price {
+        font-size: 20px;
+    }
+
+    .findus-header {
+        padding-top: 72px;
+    }
+
+    .map-adresse {
+        font-size: 16px;
+    }
+
+    .map-logo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .adress-container {
+        margin-bottom: 48px;
+    }
+
+    footer {
+        height: 86px;
+        padding: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .footer-sakura-ramen {
+        height: 40px;
+        display: none;
+    }
+
+    .footer-bluete {
+        display: block;
+        height: 40px;
+    }
+
+    .footer-logos {
+        width: 32px;
+        height: 32px;
+    }
+}
