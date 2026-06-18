@@ -4,7 +4,7 @@
 
 ## 🛠️ Tech Stack
 * **HTML5:** Semantic markup for a structured layout.
-* **CSS3:** Custom styling, Flexbox/Grid for responsiveness, and smooth transitions.
+* **CSS3:** Custom styling, Flexbox for responsiveness, and smooth transitions.
 
 ## ⚜️ Features
 * Responsive design (optimized for mobile, tablet, and desktop)
